@@ -39,6 +39,10 @@ namespace Quanlicafe
         {
 
         }
-
+        void LoadSP()
+        {
+            string query = "SELECT NUOCUONG.NAME FROM dbo.NUOCUONG";
+            cbCafe.DataSource = DataProvider.Instance.ExecuteQuery(query);
+        }
     }
 }

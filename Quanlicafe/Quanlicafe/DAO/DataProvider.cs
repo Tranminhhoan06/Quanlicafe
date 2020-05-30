@@ -15,6 +15,9 @@ namespace Quanlicafe.DAO
             get { if (instance == null) instance = new DataProvider(); return DataProvider.instance; }
             private set { DataProvider.instance = value; }
         }
+
+        private DataProvider(){}
+
          private string connectionstr = "Data Source=.\\SQLEXPRESS;Initial Catalog=Quanlicafe;Integrated Security=True";
 
          public DataTable ExecuteQuery(string query)

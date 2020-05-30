@@ -14,8 +14,7 @@ namespace Quanlicafe.DAO
         public bool Login(string username, string pass)
         {
                 string query = "SELECT * FROM dbo.TAIKHOAN WHERE UNAME = '" + username + "' and PASS = '" + pass + "'";
-                DataProvider provider = new DataProvider();
-                DataTable da = provider.ExecuteQuery(query);
+                DataTable da = DataProvider.Instance.ExecuteQuery(query);
                 return da.Rows.Count > 0;
         }
         public void kiemtra(string username, string pass)
