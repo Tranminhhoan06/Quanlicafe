@@ -20,3 +20,4 @@ D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.P
 D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.csproj.GenerateResource.Cache
 C:\Users\user\Downloads\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.exe
 C:\Users\user\Downloads\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.pdb
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.csprojResolveAssemblyReference.cache

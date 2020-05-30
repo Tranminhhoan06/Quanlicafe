@@ -65,8 +65,11 @@ namespace Quanlicafe
 
         private void fManager_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = BillDAO.Instance.GetBill(1);
+
             Bill(1);
+
         }
+
+
     }
 }

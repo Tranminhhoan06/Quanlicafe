@@ -19,7 +19,7 @@ namespace Quanlicafe.DAO
         public List<Billinfo> Getlist(int id)
         {
             List<Billinfo> Listbillinfo = new List<Billinfo>();
-            DataTable data = DataProvider.Instance.ExecuteQuery("SELECT * FROM dbo.HOADON WHERE HOADON.IDHD = " + id);
+            DataTable data = DataProvider.Instance.ExecuteQuery("SELECT * FROM dbo.CHITIETHOADON WHERE CHITIETHOADON.IDBILL = " + id);
             foreach (DataRow item in data.Rows)
             {
                 Billinfo info = new Billinfo(item);
