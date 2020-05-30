@@ -52,7 +52,6 @@
     <Compile Include="Bill.Designer.cs">
       <DependentUpon>Bill.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="Frofile.cs">
       <SubType>Form</SubType>
     </Compile>
