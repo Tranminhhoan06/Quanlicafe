@@ -14,7 +14,7 @@ namespace Quanlicafe
         public fProfile()
         {
             InitializeComponent();
-            txbDisplayName.Text = 
+            txbUserName.Text = "ADMIN";
         }
     }
 }

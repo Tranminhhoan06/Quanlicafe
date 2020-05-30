@@ -37,7 +37,8 @@ namespace Quanlicafe
             //string query = "SELECT * FROM dbo.TAIKHOAN WHERE UNAME = '" + username + "' and PASS = '" + pass + "'";
             //DataProvider provider = new DataProvider();
             //DataTable da = provider.Execute(query);
-            login.kiemtra(username, pass);
+            //login.kiemtra(username, pass);
+            loginDAO login = new loginDAO();
             if(login.Login(username,pass) == true)
             {
                 fManager f = new fManager();

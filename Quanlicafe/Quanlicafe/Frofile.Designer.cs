@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.tsbUserName = new System.Windows.Forms.TextBox();
+            this.txbUserName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txbPassword = new System.Windows.Forms.TextBox();
@@ -50,20 +50,20 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.tsbUserName);
+            this.panel2.Controls.Add(this.txbUserName);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(12, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(376, 43);
             this.panel2.TabIndex = 1;
             // 
-            // tsbUserName
+            // txbUserName
             // 
-            this.tsbUserName.Location = new System.Drawing.Point(138, 12);
-            this.tsbUserName.Name = "tsbUserName";
-            this.tsbUserName.ReadOnly = true;
-            this.tsbUserName.Size = new System.Drawing.Size(210, 20);
-            this.tsbUserName.TabIndex = 1;
+            this.txbUserName.Location = new System.Drawing.Point(138, 12);
+            this.txbUserName.Name = "txbUserName";
+            this.txbUserName.ReadOnly = true;
+            this.txbUserName.Size = new System.Drawing.Size(210, 20);
+            this.txbUserName.TabIndex = 1;
             // 
             // label1
             // 
@@ -199,7 +199,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox tsbUserName;
+        private System.Windows.Forms.TextBox txbUserName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txbPassword;

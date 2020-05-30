@@ -35,6 +35,10 @@ namespace Quanlicafe
             fBill f = new fBill();
             f.ShowDialog();
         }
+        void Bill(int id)
+        {
+
+        }
 
     }
 }
