@@ -35,6 +35,7 @@ namespace Quanlicafe
             this.Hide();
             f.ShowDialog();
             this.Show();
+
         }
     }
 }
