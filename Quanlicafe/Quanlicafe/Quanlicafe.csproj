@@ -53,6 +53,7 @@
       <DependentUpon>Bill.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\loginDAO.cs" />
     <Compile Include="Frofile.cs">
       <SubType>Form</SubType>
     </Compile>

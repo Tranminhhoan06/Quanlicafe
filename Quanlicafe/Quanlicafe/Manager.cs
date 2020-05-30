@@ -16,15 +16,8 @@ namespace Quanlicafe
         public fManager()
         {
             InitializeComponent();
-            load();
         }
 
-        void load()
-        {
-            string query = "SELECT * FROM dbo.TAIKHOAN";
-            DataProvider provider = new DataProvider();
-            dataGridView1.DataSource = provider.Execute(query);
-        }
 
         private void đăngXuấtToolStripMenuItem1_Click(object sender, EventArgs e)
         {

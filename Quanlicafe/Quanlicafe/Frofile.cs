@@ -14,6 +14,7 @@ namespace Quanlicafe
         public fProfile()
         {
             InitializeComponent();
+            txbDisplayName.Text = 
         }
     }
 }
