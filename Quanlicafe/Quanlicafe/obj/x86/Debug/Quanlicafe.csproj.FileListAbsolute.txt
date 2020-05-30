@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.exe
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.pdb
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.Properties.Resources.resources
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.exe
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.pdb
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fLogin.resources
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fManager.resources
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fProfile.resources
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fBill.resources
