@@ -32,6 +32,14 @@ namespace Quanlicafe.DAO
                  connect.Close();
              }
              return (data);
+             //SqlConnection connect = new SqlConnection(connectionstr);
+             //       connect.Open();
+             //SqlCommand command = new SqlCommand(query, connect);
+             //DataTable data = new DataTable();
+             //SqlDataAdapter adapter = new SqlDataAdapter(command);
+             //adapter.Fill(data);
+             //connect.Close();
+             //return data;
          }
          public int ExecuteNonQuery(string query)
          {

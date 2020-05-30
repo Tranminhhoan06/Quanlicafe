@@ -29,16 +29,15 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnShow = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dtpFrom = new System.Windows.Forms.DateTimePicker();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dtgvBill = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnShow = new System.Windows.Forms.Button();
+            this.lsvTotalBill = new System.Windows.Forms.ListView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvBill)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -52,6 +51,34 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(357, 79);
             this.panel1.TabIndex = 0;
+            // 
+            // btnShow
+            // 
+            this.btnShow.Location = new System.Drawing.Point(279, 55);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(75, 23);
+            this.btnShow.TabIndex = 4;
+            this.btnShow.Text = "Thống kê";
+            this.btnShow.UseVisualStyleBackColor = true;
+
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(25, 35);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Đến ngày";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(25, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Từ ngày";
             // 
             // dateTimePicker1
             // 
@@ -69,46 +96,19 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.dtgvBill);
+            this.panel2.Controls.Add(this.lsvTotalBill);
             this.panel2.Location = new System.Drawing.Point(12, 97);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(357, 250);
             this.panel2.TabIndex = 1;
             // 
-            // dtgvBill
+            // lsvTotalBill
             // 
-            this.dtgvBill.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvBill.Location = new System.Drawing.Point(3, 3);
-            this.dtgvBill.Name = "dtgvBill";
-            this.dtgvBill.Size = new System.Drawing.Size(351, 244);
-            this.dtgvBill.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Từ ngày";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 35);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Đến ngày";
-            // 
-            // btnShow
-            // 
-            this.btnShow.Location = new System.Drawing.Point(279, 55);
-            this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(75, 23);
-            this.btnShow.TabIndex = 4;
-            this.btnShow.Text = "Thống kê";
-            this.btnShow.UseVisualStyleBackColor = true;
+            this.lsvTotalBill.Location = new System.Drawing.Point(3, 3);
+            this.lsvTotalBill.Name = "lsvTotalBill";
+            this.lsvTotalBill.Size = new System.Drawing.Size(351, 244);
+            this.lsvTotalBill.TabIndex = 0;
+            this.lsvTotalBill.UseCompatibleStateImageBehavior = false;
             // 
             // fBill
             // 
@@ -123,7 +123,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvBill)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -132,11 +131,11 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DataGridView dtgvBill;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dtpFrom;
         private System.Windows.Forms.Button btnShow;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListView lsvTotalBill;
     }
 }

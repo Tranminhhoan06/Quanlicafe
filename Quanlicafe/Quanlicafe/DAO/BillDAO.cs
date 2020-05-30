@@ -18,7 +18,7 @@ namespace Quanlicafe.DAO
         private BillDAO() { }
         public int GetBill(int id)
         {
-            DataTable data = DataProvider.Instance.ExecuteQuery("SELECT * FROM dbo.BILL WHERE IDHD = " + id + "'");
+            DataTable data = DataProvider.Instance.ExecuteQuery("SELECT * FROM dbo.HOADON WHERE HOADON.IDHD = " + id);
             if (data.Rows.Count > 0)
             {
                 Bill bill = new Bill(data.Rows[0]);

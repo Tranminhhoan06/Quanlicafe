@@ -8,15 +8,15 @@ namespace Quanlicafe.DTO
 {
     public class Bill
     {
-        public Bill(int id, DateTime? datein)
+        public Bill(int IDHD, DateTime? DATEIN)
         {
-            this.ID = id;
-            this.DATEIN = datein;
+            this.ID = IDHD;
+            this.DATEIN = DATEIN;
         }
         public Bill(DataRow row)
         {
-            this.ID = (int)row["id"];
-            this.DATEIN = (DateTime)row["datein"];
+            this.ID = (int)row["IDHD"];
+            this.DATEIN = (DateTime)row["DATEIN"];
         }
         private int iD;
         public int ID
