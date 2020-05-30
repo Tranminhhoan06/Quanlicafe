@@ -49,7 +49,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.quảnLíHóaĐơnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hóaĐơnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -128,7 +127,6 @@
             // lsvBill
             // 
             this.lsvBill.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
@@ -142,15 +140,15 @@
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "IDHD";
+            this.columnHeader2.Text = "Tên món";
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "IDSP";
+            this.columnHeader3.Text = "Số lượng";
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "SL";
+            this.columnHeader4.Text = "Thành tiền";
             // 
             // panel3
             // 
@@ -235,10 +233,6 @@
             this.hóaĐơnToolStripMenuItem.Text = "Hóa đơn";
             this.hóaĐơnToolStripMenuItem.Click += new System.EventHandler(this.hóaĐơnToolStripMenuItem_Click);
             // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "IDCT";
-            // 
             // fManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -289,6 +283,5 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
     }
 }

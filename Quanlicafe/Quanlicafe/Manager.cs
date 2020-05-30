@@ -43,13 +43,14 @@ namespace Quanlicafe
 
         void Bill(int id)
         {
-            List<Billinfo> Listbillinfo = BillinfoDAO.Instance.Getlist(BillDAO.Instance.GetBill(id));
-            foreach (Billinfo item in Listbillinfo)
+            lsvBill.Items.Clear();
+            List<Quanlicafe.DTO.Menu> List = MenuDAO.Instance.Getlistmenu(id);
+
+            foreach (Quanlicafe.DTO.Menu item in List)
             {
-                ListViewItem lsvitem = new ListViewItem(item.IDCT.ToString());
-                lsvitem.SubItems.Add(item.IDBILL.ToString());
-                lsvitem.SubItems.Add(item.IDSP.ToString());
+                ListViewItem lsvitem = new ListViewItem(item.NAME.ToString());
                 lsvitem.SubItems.Add(item.SL.ToString());
+                lsvitem.SubItems.Add(item.Total.ToString());
                 lsvBill.Items.Add(lsvitem);
             }
 
